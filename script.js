@@ -1,5 +1,3 @@
-'use strict';
-
 const url=document.getElementById('index');
 
 const botonAtras= document.getElementById('atras');

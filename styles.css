@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: green;
+}
+.container-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  border: 1px solid white;
+  margin: 20px;
+}
+.imagen-variable{
+  height: 250px;
+  width: 250px;
+}
+.img-pokemon{
+  height: 250px;
+  width: 250px;
+}
+.container-image{
+
+}
+.container-boton {
+  display: flex;
+}
+
+.boton {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
